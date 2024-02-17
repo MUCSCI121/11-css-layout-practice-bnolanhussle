@@ -2,3 +2,9 @@ article {
   float: left;
   width: 30%;
 }
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
