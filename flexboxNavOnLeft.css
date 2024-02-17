@@ -1,8 +1,16 @@
 section {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  article {
-    flex-grow: 1;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 9;
+}
+article {
+  flex-grow: 1;
+}
+
+div {
+  display: flex;
+}
+
+nav {
+  flex-grow: 1;
+}
