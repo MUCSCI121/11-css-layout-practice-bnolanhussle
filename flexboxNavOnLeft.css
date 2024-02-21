@@ -1,23 +1,34 @@
 div {
+  /* change container holding <nav> and <section> elements to flex layout engine */
   display: flex;
+
+  /* Enable the children elements to go into a column format with <nav> on one row and <section> on the row beneath it */
   flex-wrap: wrap;
 }
 
 nav {
+  /* <nav> will grow at a slower rate than section */
   flex-grow: 1;
 
   /* Set up the nav element to render the <a> element in a flex layout */
   display: flex;
-  /* Force the links into a column layout */
+
+  /* Force the <a> elements into a column layout */
   flex-direction: column;
 }
 
 section {
+  /* <section> will grow at a faster rate than nav */
   flex-grow: 9;
+
+  /* set up the <section> element to render <article> elements in a flex layout */
   display: flex;
+
+  /* Enable the <article> elements to wrap down to a new line when the screen is small */
   flex-wrap: wrap;
 }
 
 article {
+  /* <article> elements will all grow at the same rate */
   flex-grow: 1;
 }
