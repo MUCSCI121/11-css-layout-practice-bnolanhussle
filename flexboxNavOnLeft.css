@@ -5,6 +5,8 @@ div {
 
 nav {
   flex-grow: 1;
+  flex-direction: column;
+  display: flex;
 }
 
 section {
@@ -14,7 +16,7 @@ section {
 }
 
 a {
-  display: block;
+  /*display: block;*/
 }
 
 article {
