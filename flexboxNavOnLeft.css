@@ -5,18 +5,17 @@ div {
 
 nav {
   flex-grow: 1;
-  flex-direction: column;
+
+  /* Set up the nav element to render the <a> element in a flex layout */
   display: flex;
+  /* Force the links into a column layout */
+  flex-direction: column;
 }
 
 section {
   flex-grow: 9;
   display: flex;
   flex-wrap: wrap;
-}
-
-a {
-  /*display: block;*/
 }
 
 article {
