@@ -9,3 +9,8 @@ nav {
 section {
   flex-grow: 9;
 }
+
+a {
+  display: block;
+}
+
