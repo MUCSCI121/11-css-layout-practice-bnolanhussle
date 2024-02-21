@@ -2,3 +2,10 @@ article {
   float: left;
   width: 32%;
 }
+
+section::after {
+  content: "";
+  display: block;
+  
+  clear: both;
+}
